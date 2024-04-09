@@ -1,0 +1,175 @@
+2024-04-04 15:38:46 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: get_nvd_cvss)
+2024-04-04 15:38:46 [scrapy.utils.log] INFO: Versions: lxml 5.2.1.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.0, w3lib 2.1.2, Twisted 24.3.0, Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.1 30 Jan 2024), cryptography 42.0.5, Platform Windows-10-10.0.22631-SP0
+2024-04-04 15:38:46 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-04-04 15:38:46 [asyncio] DEBUG: Using selector: SelectSelector
+2024-04-04 15:38:46 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-04-04 15:38:46 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-04-04 15:38:46 [scrapy.extensions.telnet] INFO: Telnet Password: 851e00154146488d
+2024-04-04 15:38:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-04-04 15:38:46 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'get_nvd_cvss',
+ 'DOWNLOAD_DELAY': 1,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'get_nvd_cvss.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['get_nvd_cvss.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}     
+2024-04-04 15:38:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',        
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',        
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-04-04 15:38:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-04-04 15:38:46 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-04-04 15:38:46 [scrapy.core.engine] INFO: Spider opened
+2024-04-04 15:38:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-04-04 15:38:46 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-04-04 15:38:47 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://nvd.nist.gov/robots.txt> (referer: None)
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 63 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 69 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 73 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 79 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 83 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 126 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 130 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 138 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 177 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 194 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 196 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 199 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 207 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 218 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 227 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 260 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 292 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 317 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 348 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 387 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 392 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 395 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 398 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 404 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 409 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 415 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 427 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 457 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 470 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 495 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 510 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 517 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 523 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 529 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 535 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 540 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 558 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 575 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 578 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 579 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 580 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 581 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 585 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 586 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 589 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 590 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 598 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 600 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 602 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 604 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 606 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 608 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 610 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 612 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 614 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 616 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 618 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 620 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 622 without any user agent to enforce it on.
+2024-04-04 15:38:47 [protego] DEBUG: Rule at line 624 without any user agent to enforce it on.
+2024-04-04 15:38:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nvd.nist.gov> (referer: None)
+2024-04-04 15:38:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://nvd.nist.gov> (referer: None)
+Traceback (most recent call last):
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\parsel\selector.py", line 619, in xpath
+    result = xpathev(
+  File "src\\lxml\\etree.pyx", line 1601, in lxml.etree._Element.xpath
+  File "src\\lxml\\xpath.pxi", line 290, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\\lxml\\xpath.pxi", line 210, in lxml.etree._XPathEvaluatorBase._handle_result
+lxml.etree.XPathEvalError: Invalid expression
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "D:\hima_\Documents\GitHub\project\CVE\get_nvd_cvss\get_nvd_cvss\spiders\nvd_cvss.py", line 10, in parse
+    cvss = response.xpath("span data-testid='vuln-cvssv3-vector'")
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\scrapy\http\response\text.py", line 157, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "d:\hima_\Documents\GitHub\project\CVE\.venv\lib\site-packages\parsel\selector.py", line 626, in xpath
+    raise ValueError(f"XPath error: {exc} in {query}")
+ValueError: XPath error: Invalid expression in span data-testid='vuln-cvssv3-vector'
+2024-04-04 15:38:49 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-04-04 15:38:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 436,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 79725,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 2.447056,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 4, 4, 6, 38, 49, 150344, tzinfo=datetime.timezone.utc),
+ 'log_count/DEBUG': 65,
+ 'log_count/ERROR': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2024, 4, 4, 6, 38, 46, 703288, tzinfo=datetime.timezone.utc)}
+2024-04-04 15:38:49 [scrapy.core.engine] INFO: Spider closed (finished)
